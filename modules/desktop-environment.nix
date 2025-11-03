@@ -15,8 +15,6 @@
   gnome-contacts
   epiphany
   geary
-  gedit
-  gnome-text-editor
   gnome-tour
   gnome-font-viewer
   decibels

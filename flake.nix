@@ -16,9 +16,11 @@
     };
     
     millennium.url = "git+https://github.com/SteamClientHomebrew/Millennium";
+
+    fjordlauncher.url = "github:hero-persson/FjordLauncherUnlocked";
   };
 
-  outputs = { nixpkgs, nixpkgs-unstable, home-manager, winapps, millennium, ... } @ inputs:
+  outputs = { nixpkgs, nixpkgs-unstable, home-manager, winapps, millennium, fjordlauncher, ... } @ inputs:
     let
       system = "x86_64-linux";
 
@@ -54,6 +56,14 @@
             }
           )
           # Winapps above
+          # Fjord launcher bellow
+          (
+            { pkgs, ... }:
+            {
+              environment.systemPackages = [ fjordlauncher.packages.${pkgs.system}.fjordlauncher ];
+            }
+          )
+          # Fjord launcher above
         ];
       };
       

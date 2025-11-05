@@ -73,6 +73,7 @@
   teamspeak6-client
   tor-browser
   vscode-fhs
+  openmw
 
   # CLI
   wget

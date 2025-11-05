@@ -13,6 +13,7 @@
       ./modules/automation.nix
       ./modules/desktop-environment.nix
       ./modules/packages.nix
+      ./modules/virtualisation.nix
     ];
   
   # Enables flakes support

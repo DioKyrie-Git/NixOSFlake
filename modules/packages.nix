@@ -74,6 +74,13 @@
   tor-browser
   vscode-fhs
   openmw
+  unstable.ladybird
+  yt-dlg
+
+  # PCB
+  unstable.kicad
+  kikit
+  iverilog
 
   # CLI
   wget
@@ -82,6 +89,12 @@
   nh
   clippy
   libretranslate
+
+  # Music
+  musescore
+  lmms
+  vmpk
+  qtractor
   
   # Support for Archive formats
   rar

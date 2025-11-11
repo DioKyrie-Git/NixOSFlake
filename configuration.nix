@@ -14,6 +14,7 @@
       ./modules/desktop-environment.nix
       ./modules/packages.nix
       ./modules/virtualisation.nix
+      ./modules/undervolt.nix
     ];
   
   # Enables flakes support
